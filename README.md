@@ -212,19 +212,19 @@ Central registry for skill discovery:
   "skills": [
     {
       "name": "skill-builder",
-      "description": "Create and scaffold new RooGent skills",
-      "tags": ["skill-development", "framework", "meta"],
+      "description": "Create and scaffold new RooGent skills with proper structure, documentation templates, and helper scripts. Use this when you need to build custom automation capabilities or extend RooGent functionality with skill.",
+      "tags": ["skill-development", "framework", "automation", "meta", "roogent-skill", "tooling", "scaffolding"],
       "path": ".roo/skills/skill-builder",
-      "keywords": ["create skill", "new skill", "build skill"],
+      "keywords": ["create skill", "create a skill", "create a roogent skill", "new skill", "build skill", "make skill", "develop skill", "add skill", "skill template", "initialize skill", "bootstrap skill", "roogent skill", "skill creation", "skill development", "skill about", "custom skill", "skill builder", "generate skill"],
       "required_tools": ["read_file", "write_to_file", "execute_command"],
       "required_modes": ["code"]
     },
     {
       "name": "pre-deployment-safety-checks",
-      "description": "Verify GCP Composer Airflow environments",
-      "tags": ["gcp", "airflow", "deployment", "safety"],
+      "description": "Verify GCP Composer Airflow environments have no running DAGs before deployment to prevent conflicts and ensure safe deployments",
+      "tags": ["gcp", "airflow", "composer", "deployment", "safety", "pre-deployment", "validation"],
       "path": ".roo/skills/pre-deployment-safety-checks",
-      "keywords": ["deployment", "safety", "check", "airflow"],
+      "keywords": ["pre-deployment", "safety", "check", "verify", "validate", "deployment", "airflow", "dag", "running", "composer", "gcp", "safe", "conflicts"],
       "required_tools": ["execute_command"],
       "required_modes": ["code", "devops"]
     }
